@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fgo_hd">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your name: "
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:id="@+id/textName"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="145dp"
+            android:background="#00000000"
+            android:id="@+id/nombre"/>
+
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="122dp"
+            android:id="@+id/btnMainMenu"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/mainmenu_hd"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="135dp"
+            android:id="@+id/btnTryAgain"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/tryagain_hd"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="High Score: 35,000"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:id="@+id/textHigh"
+            android:layout_gravity="right|center_vertical"
+            android:autoLink="none"
+            android:layout_marginTop="43dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Your Score: 20,000"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:id="@+id/textScore"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/tap_hd"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="23dp"/>
+
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fs_hd">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnNave5"
+            android:layout_gravity="bottom|left"
+            android:background="@drawable/nave5_hd"
+            android:layout_column="1"
+            android:layout_weight="20"
+            android:layout_marginBottom="65dp"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNaveS"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/naves_hd"
+            android:layout_column="3"
+            android:layout_marginBottom="65dp"
+            android:layout_marginRight="5dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNave1"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/nave1_hd"
+            android:layout_column="2"
+            android:layout_marginTop="270px"/>
+    </FrameLayout>
+
+</LinearLayout>
